@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/eyesim/.nvm/v0.10.40/bin/node',
+1 verbose cli   '/home/eyesim/.nvm/v0.10.40/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'webpect' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 warn package.json vue@1.0.26 No README data
+5 verbose cache add [ 'webpect', null ]
+6 verbose cache add name=undefined spec="webpect" args=["webpect",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'webpect',
+7 verbose parsed url   path: 'webpect',
+7 verbose parsed url   href: 'webpect' }
+8 silly lockFile b0425873-webpect webpect
+9 verbose lock webpect /home/eyesim/.npm/b0425873-webpect.lock
+10 silly lockFile b0425873-webpect webpect
+11 silly lockFile b0425873-webpect webpect
+12 verbose addNamed [ 'webpect', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 404e93d9-webpect webpect@
+15 verbose lock webpect@ /home/eyesim/.npm/404e93d9-webpect.lock
+16 silly addNameRange { name: 'webpect', range: '*', hasData: false }
+17 verbose request where is /webpect
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 4f84b50e7f494412
+20 verbose url raw /webpect
+21 verbose url resolving [ 'https://registry.npmjs.org/', './webpect' ]
+22 verbose url resolved https://registry.npmjs.org/webpect
+23 verbose request where is https://registry.npmjs.org/webpect
+24 info trying registry request attempt 1 at 14:47:30
+25 http GET https://registry.npmjs.org/webpect
+26 http 404 https://registry.npmjs.org/webpect
+27 silly registry.get cb [ 404,
+27 silly registry.get   { 'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '2',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Tue, 19 Jul 2016 06:47:32 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-lcy1133-LCY',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1468910852.333597,VS0,VE87',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 silly lockFile 404e93d9-webpect webpect@
+29 silly lockFile 404e93d9-webpect webpect@
+30 error 404 Not Found
+30 error 404
+30 error 404 'webpect' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Linux 3.16.0-44-generic
+32 error command "/home/eyesim/.nvm/v0.10.40/bin/node" "/home/eyesim/.nvm/v0.10.40/bin/npm" "install" "webpect"
+33 error cwd /home/eyesim/CscwProject/study/VueJS
+34 error node -v v0.10.40
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
